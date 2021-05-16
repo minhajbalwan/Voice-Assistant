@@ -28,7 +28,7 @@ def takeCommand():
   
 	return query.lower()
 
-WAKE = 'hello'
+WAKE = 'alexa'
 try:
 	while True:
 		query = takeCommand()
